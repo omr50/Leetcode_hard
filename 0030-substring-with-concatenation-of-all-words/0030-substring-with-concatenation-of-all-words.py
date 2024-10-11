@@ -1,5 +1,6 @@
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
+        # working?
         word_size = len(words[0])
         word_hashmap = {}
         window_length = word_size * len(words)
