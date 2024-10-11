@@ -28,6 +28,8 @@ class Solution:
             # iterations for one jump. So instead use a min heap to feed the max heap. Or you can sort the
             # input array and basically keep a pointer from the start range to the end range.
 
+            # use two heaps instead basically
+
             # for j in range(prev_profit, curr_profit + 1): 
             #     for profit in capital_to_profit[j]:
             #         heappush(heap, -profit)
